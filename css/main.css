@@ -1,0 +1,72 @@
+
+/* Give horizontal margin to the whole body */
+body {
+  background-color: black;
+  color: bisque;
+  font-size: 20px;
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-style: normal;
+  margin: 0 200px; /* Adds margin to left and right */
+}
+
+/* Navbar background and text */
+.navbar {
+  background-color: darkolivegreen !important;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+/* Brand (Arafath Biriyani) style */
+.navbar .navbar-brand {
+  font-family: "Dancing Script", cursive;
+  font-size: 30px;
+  color: white !important;
+  margin-right: 40px; /* Spacing between brand and first nav item */
+}
+
+/* Nav items */
+.navbar .nav-link,
+.navbar .dropdown-item {
+  font-family: Arial, sans-serif;
+  color: rgb(255, 255, 255) !important;
+  padding: 8px 12px; /* Tighter spacing */
+}
+
+/* Distribute nav items but prevent extreme spacing */
+.navbar-nav {
+  gap: 10px; /* Controls space between items */
+}
+
+
+/* Default background for dropdown menu */
+.dropdown-menu {
+  background-color: #786f64; /* Or any color you prefer */
+}
+
+/* Dropdown items text color on normal */
+.dropdown-menu .dropdown-item {
+  color: white;
+}
+
+/* On hover, keep background darker and text white */
+.dropdown-menu .dropdown-item:hover {
+  background-color: #5e564d;
+  color: white !important;
+}
+
+
+/* Dropdown menu hover */
+.dropdown-item:hover {
+  background-color: #786f64;
+  color: rgb(255, 255, 255) !important;
+}
+
+/* White hamburger icon */
+.navbar-toggler {
+  border-color: white; /* Border of toggle button */
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='white' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
